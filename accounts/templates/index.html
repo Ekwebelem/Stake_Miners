@@ -1,0 +1,265 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block body %}
+<!--  let the header start here   -->
+<div class="jumbotron" id="indexheader" style="background: linear-gradient(to right, #172443, #131B28), url('{% static 'images/StripeBCK.png' %}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+    <div class="container">
+        <div class="row">
+                      <div class="col-md-6"  >
+                            <div class="indexfirstcell">
+                                      <!-- <h6 >Welcome to Kweba Tech-Hub</h6> -->
+                                      <div class="flip-container" id="flipContainer">
+                                      <span class="flip-items">Mine and earn <br>Crypto <span class="flipping-text" id="flipWord">easily</span></span>
+                                  </div>
+
+
+
+                                      <br>
+                                      <p >
+                                        Experience the future of cryptocurrency mining with STAKER MINER
+                                      </p>
+                                        <br>
+
+                                       <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                         Get Started
+                                       </button>
+
+
+                                         <!-- Modal Structure -->
+                                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                           <div class="modal-dialog modal-dialog-centered modal-lg">
+                                             <div class="modal-content">
+                                               <div class="modal-header">
+                                                 <h5 class="modal-title" id="exampleModalLabel">Connect a Wallet</h5>
+                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                               </div>
+                                               <div class="modal-body">
+
+                                                 <br>
+                                                 <div class="container-fluid">
+                                                   <div class="row">
+                                                     <!-- Left Column -->
+                                                     <div class="col-md-4 border-end">
+                                                       <h5 class="modal-title" id="exampleModalLabel">Popular</h5>
+                                                       <br>
+                                                       <ul class="list-unstyled">
+
+                                                         <li class="d-flex align-items-center mb-2">
+                                                           <a href="{% url 'activate_account' %}"><img src="{% static 'images/metamask.png' %}" alt="Icon" class="me-2">
+                                                          MetaMask</a>
+
+                                                         </li>
+                                                         <li class="d-flex align-items-center mb-2">
+                                                           <a href=""><img src="{% static 'images/connectwallet.png' %}" alt="Icon" class="me-2">
+                                                           <span>WalletConnect</span></a>
+                                                         </li>
+                                                         <li class="d-flex align-items-center mb-2">
+                                                           <a href=""><img src="{% static 'images/phantom.png' %}" alt="Icon" class="me-2">
+                                                           <span>Phantom</span></a>
+                                                         </li>
+                                                         <li class="d-flex align-items-center mb-2">
+                                                           <a href=""><img src="{% static 'images/rainbow.png' %}" alt="Icon" class="me-2">
+                                                           <span>Rainbow</span></a>
+                                                         </li>
+                                                         <li class="d-flex align-items-center mb-2">
+                                                           <a href=""><img src="{% static 'images/coinbase.png' %}" alt="Icon" class="me-2">
+                                                           <span>Coinbase Wallet</span></a>
+                                                         </li>
+                                                       </ul>
+                                                     </div>
+                                                     <!-- <div class="col-md-1">
+                                                       </div> -->
+                                                     <!-- Right Column -->
+                                                     <div class="col-md-8 d-flex align-items-center justify-content-center" id="walletcolumn8">
+
+                                                       <ul class="list-unstyled">
+                                                         <h5>What is a Wallet?</h5>
+                                                         <br>
+                                                         <li class="mb-3">
+                                                           <div class="d-flex ">
+                                                             <img src="{% static 'images/digitalasset.png' %}" alt="Icon" class="me-2">
+                                                             <div>
+                                                               <h6>A Home for your Digital Assets</h6>
+                                                               <p class="mb-0">Wallets are used to send, receive, store, and display <br> digital assets like Ethereum and NFTs.</p>
+                                                             </div>
+                                                           </div>
+                                                         </li>
+                                                         <br>
+                                                         <li class="mb-3">
+                                                           <div class="d-flex align-items-start">
+                                                             <img src="{% static 'images/login.png' %}" alt="Icon" class="me-2">
+                                                             <div>
+                                                               <h6>A New Way to Log In</h6>
+                                                               <p class="mb-0">Instead of creating new accounts and passwords <br> on every website, just connect your wallet.</p>
+                                                             </div>
+                                                           </div>
+                                                         </li>
+                                                         <br>
+                                                         <button type="button" class="btn btn-light">Get a Wallet</button>
+                                                         <br>
+                                                         <br>
+                                                         <a class="learn" href="">Learn more</a>
+                                                         <br>
+                                                         <br>
+
+                                                       </ul>
+                                                     </div>
+                                                   </div>
+                                                 </div>
+                                               </div>
+                                               <!-- <div class="modal-footer">
+                                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                 <button type="button" class="btn btn-primary">Save changes</button>
+                                               </div> -->
+                                             </div>
+                                           </div>
+                                         </div>
+
+
+
+                             </div>
+                      </div>
+                     <div class="col-md-6">
+                                <div class="indexheadimage">
+                                  <img src="{% static 'images/MiningBNB1.png' %}"  alt="no image found">
+                                </div>
+                     </div>
+          </div>
+    </div>
+</div>
+<!--  let the header end here   -->
+
+<!--  let the first column start here   -->
+
+  <div class="jumbotron" id="indexfirstjumbo" style="background: url('{% static 'images/Vector1.png' %}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+    <div class="container">
+          <div class="row">
+                <div class="col-md-2">  <!-- 3 is the width of the left side -->
+                </div>
+
+                <div class="col-md-8" >  <!-- 6 is the width of the center side -->
+                      <div id="indexfirsttext">
+                          <h2>Why choose Staker Miner</h2>
+                          <br>
+
+                     </div>
+               </div>
+               <div class="col-md-2">  <!-- 3 is the width of the left side -->
+               </div>
+
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="indexheadimage2">
+                  <img src="{% static 'images/system-solid-8-account.gif' %}"  alt="no image found">
+                </div>
+                <div class="userFriendlyHead">
+                  <h3>User-Friendly</h3>
+                </div>
+                <div class="userFriendly">
+                  <p>User-friendly, with an intuitive interface that makes <br>mining easy for everyone</p>
+                </div><!-- 3 is the width of the left side -->
+              </div>
+
+              <div class="col-md-4">
+                <div class="indexheadimage2">
+                  <img src="{% static 'images/mdi_security-lock.png' %}"  alt="no image found">
+                </div>
+                <div class="userFriendlyHead">
+                  <h3>Secured</h3>
+                </div>
+                <div class="userFriendly">
+                  <p>Our platform guarantees top-tier security with <br>advanced encryption and multi-factor authentication</p>
+                </div><!-- 3 is the width of the left side -->
+              </div>
+
+              <div class="col-md-4">
+                <div class="indexheadimage2">
+                  <img src="{% static 'images/system-solid-33-speed.gif' %}"  alt="no image found">
+                </div>
+                <div class="userFriendlyHead">
+                  <h3>Fast Mining</h3>
+                </div>
+                <div class="userFriendly">
+                  <p>Lightning-fast mining with optimized algorithms and <br>state-of-the-art hardware</p>
+                </div><!-- 3 is the width of the left side -->
+              </div>
+              </div>
+
+    </div>
+    </div>
+
+    <!--  let the first column start here   -->
+
+
+  <!--  let the third column start here   -->
+
+  <div class="jumbotron" id="indexthirdcontainer" style="background: url('{% static 'images/background2.png' %}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+        <div class="container">
+              <div class="row">
+
+                                           <div class="col-md-6">
+                                                      <div class="indexthirdimg1">
+                                                        <img src="{% static 'images/how-to-mine-1.png' %}"  alt="no image found">
+                                                      </div>
+                                           </div>
+
+                          <div class="col-md-6"  >
+                                <div class="indexthirdcell">
+                                        <h2 class="indexh1thirdcell">How To Mine <span id="and">&</span>  Earn</h2>
+
+                                        <div class="indexthirdimg">
+                                          <img src="{% static 'images/Line.png' %}"  alt="no image found">
+                                        </div>
+                                        <br>
+                                        <div class="indexthirdimg">
+                                          <img src="{% static 'images/1-Connect.png' %}"  alt="no image found">
+                                        </div>
+                                        <div class="indexthirdimgline2">
+                                          <img src="{% static 'images/Line2.png' %}"  alt="no image found">
+                                        </div>
+                                        <div class="indexthirdimg">
+                                          <img src="{% static 'images/2-Fund.png' %}"  alt="no image found">
+                                        </div>
+                                        <div class="indexthirdimgline2">
+                                          <img src="{% static 'images/Line2.png' %}"  alt="no image found">
+                                        </div>
+
+                                        <div class="indexthirdimg">
+                                          <img src="{% static 'images/3-Dashboard.png' %}"  alt="no image found">
+                                        </div>
+
+                                </div>
+                          </div>
+
+              </div>
+        </div>
+  </div>
+
+  <!--  let the third column end here   -->
+
+
+    <!--  let the fourth column start here   -->
+
+    <div class="jumbotron" id="indexthirdbarrycontainer" style="background: url('{% static 'images/Rectanglebackground.png' %}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+          <div class="container">
+                <div class="row">
+
+                                             <div class="col-md-12">
+                                                        <div class="indexthirdimg1forth">
+                                                          <img src="{% static 'images/Frametext.png' %}"  alt="no image found">
+                                                        </div>
+                                             </div>
+
+
+
+                </div>
+          </div>
+    </div>
+
+    <!--  let the forth column end here   -->
+
+
+{% endblock %}

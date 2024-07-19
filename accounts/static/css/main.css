@@ -1,0 +1,518 @@
+/* Import Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*  let the header column start here  */
+
+#indexheader{
+  padding-top: 40px;
+  padding-bottom: 50px;
+  /* background-color: LightCyan; */
+   background: linear-gradient(to right, #172443, #131B28), url('{% static 'images/StripeBCK.png' %}');
+}
+
+.indexfirstcell{
+  padding-top: 60px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+  vertical-align: baseline;
+
+}
+
+
+.indexfirstcell p{
+  text-align: justify;
+  font-size: 17px;
+  color: White;
+}
+
+.indexfirstcell h6{
+text-align: justify;
+
+}
+
+.indexh1{
+  font-size: 50px;
+  font-weight: bold;
+  color: White;
+
+}
+
+.indexheadimage img{
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 90%;
+  height: 90%;
+}
+
+
+.btn.btn-primary{
+
+  color: white;
+}
+
+.btn.btn-primary:hover {
+  background: transparent;
+  color: black;
+    box-shadow: none;
+}
+
+.btn.btn-outline-primary{
+  border-color: white;
+  color: white;
+  font-weight: bold;
+}
+.btn.btn-outline-primary:hover{
+  border-color: #00DD09;
+  background: #00DD09;
+  color: #172443;
+    box-shadow: none;
+      font-weight: bold;
+}
+
+#indexheadcontact{
+  background-color: pink;
+}
+
+.flip-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    color: white;
+}
+
+.flip-items {
+    display: inline-block;
+    font-size: 75px;
+    font-weight: bold;
+    color: White;
+}
+
+.flipping-text {
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+}
+
+.flipping-text.green {
+    opacity: 1;
+    color: #00DD09; /* Green color for flipping text */
+}
+
+.flipping-text.blue {
+    opacity: 1;
+    color: #00DD09; /* Blue color for flipping text */
+}
+
+.flipping-text.red {
+    opacity: 1;
+    color: #00DD09; /* Red color for flipping text */
+}
+
+.flipping-text.active {
+    opacity: 1;
+}
+
+
+
+
+
+
+/*  let the header column end here  */
+
+
+/*  let the first column start here  */
+
+#indexfirstjumbo{
+  padding-top: 30px;
+
+}
+
+#indexfirsttext h2{
+color: #16233F;
+font-size: 47px;
+font-family: 'Poppins', sans-serif;
+font-weight: 900;
+}
+
+#indexfirsttext p{
+font-size: 17px;
+
+
+}
+
+#indexfirsttext{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+
+
+
+}
+
+.indexheadimage2 img{
+  display: block; /* Ensures the image behaves as a block element */
+ margin: 0 auto; /* Centers the image horizontally */
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 30%;
+  height: 30%;
+}
+.userFriendly {
+  text-align: center;
+    font-family: 'Poppins', sans-serif; /* Use Poppins font */
+    font-size: 12px;
+    color: #16233F;
+    font-weight: normal;
+}
+
+.userFriendlyHead{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+    color: #16233F;
+}
+
+
+
+
+/*  let the first column end here  */
+
+/*  let the second column start here  */
+
+
+#indexsecondsecondjumbo{
+    padding-bottom: 60px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#indexsecondcard {
+  padding-top: 20px;
+}
+
+#indexsecondcard :hover {
+  background: skyblue;
+  color: black;
+    box-shadow: none;
+  }
+
+  .indexsecondbody{
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px skyblue;
+
+
+  }
+
+  .indexsecondbody img{
+    text-align: center;
+    height: 90%;
+    width: 90%;
+
+  }
+
+  .indexsecondtext{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+  .indexsecondtext h5{
+  color: #037BFE;
+  }
+
+/*  let the second column end here  */
+
+
+/*  let the third column start here  */
+#indexthirdcontainer{
+  padding-top: 30px;
+  padding-bottom: 70px;
+  background-color: LightCyan;
+  color: #00104E;
+}
+
+.indexthirdcell{
+  padding-top: 60px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.indexthirdcell h6{
+  text-align: justify;
+}
+
+.indexthirdcell p{
+  font-size: 17px;
+  text-align: justify;
+
+}
+
+
+
+.indexh1thirdcell{
+  font-size: 42px;
+  font-weight: bold;
+  color: white;
+}
+
+#and {
+  color: #00DD09;
+}
+
+#indexthirdcellbutton {
+
+}
+
+#indexthirdcellbutton :hover {
+  background: #00104E;
+  color: white;
+    box-shadow: none;
+}
+
+.btn.btn-info{
+  background-color: #037BFE;
+  color: white;
+}
+
+.indexthirdimg1 img{
+  margin-top: 60px;
+  width: 90%;
+  height: 90%;
+}
+
+.indexthirdimg img{
+  width: 100%;
+  height: 100%;
+}
+.indexthirdimgline2 img{
+  margin-left: 25px;
+  width: 3px;
+  height: 40px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+  /*  let the third column end here  */
+
+
+  .indexthirdimg1forth img{
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Reduce the height of the jumbotron */
+  #indexthirdbarrycontainer {
+      height: 80px; /* Adjust the height as needed */
+      display: flex;
+      justify-content: center; /* Centers horizontally */
+      align-items: center; /* Centers vertically */
+  }
+
+
+
+  /*  let the forth column start here  */
+
+
+  #indexforthcontainer{
+    padding-top: 70px;
+    background-color: White;
+
+  }
+
+  #indexforthtext{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  #indexforthtext h2{
+  color: #037BFE;
+  }
+
+  #indexforthtext p{
+  font-size: 17px;
+
+  }
+
+
+  /*  let the forth column end here  */
+
+  /*  let the fift column start here  */
+  #indexfifthcontainer{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: White;
+
+  }
+
+.accordion-item h6{
+  color: #037BFE;
+  }
+
+
+  .indexfifthimg img{
+  height: 100%;
+  width: 100%;
+  }
+
+
+
+  /*  let the fifth column end here  */
+
+  /*  let the sixth column start here  */
+  #indexsixthcontainer{
+    padding-top: 70px;
+    padding-bottom: 0px;
+    background-color: #00104E;
+    color: white;
+
+  }
+
+  #indexsixthtext{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  #indexsixthtext h2{
+    color: aqua;
+  }
+
+  #indexsixthtext p{
+    font-size: 18px;
+  }
+
+
+  /*  let the sixth column end here  */
+
+  /*  let the seventh column start here  */
+
+  #indexsevencontainer{
+    padding-top: 10px;
+    padding-bottom: 60px;
+    background-color: #00104E;
+    color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  #indexsevenrow2{
+    padding-top: 20px;
+  }
+
+  .indexsevenimg{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+
+  }
+
+  .indexsevenimg img{
+    color: white;
+    width: 50px;
+    height:50px;
+  }
+
+
+.indexseventext{
+text-align: center;
+
+}
+.indexseventext h5{
+  color: aqua;
+}
+
+  /*  let the seventh column end here  */
+
+  /*  let the eightth column start here  */
+  #idexeightjumbo{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    background-color: LightCyan;
+
+  }
+  #indexeightcontacttext{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  #indexeightcontacttext h2{
+  color: #037BFE;
+  }
+
+  #indexeightcontacttext p{
+  font-size: 17px;
+  }
+
+  /*  let the ninth column end here  */
+
+  /*  let the ninth column start here  */
+
+  #idexninejumbo{
+    padding-top: 20px;
+    padding-bottom: 60px;
+    background-color: LightCyan;
+
+  }
+
+  .indexnineformimg{
+    padding-top: 50px;
+    padding-right: 20px;
+  }
+
+  .indexnineformimg img{
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 100%;
+    width: 100%;
+  }
+
+
+
+
+  #indexninecontactformbackground{
+    background-color: #037BFE;
+    color: white;
+
+  }
+  .indexnineformpad{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
+
+    .indexninebtn2{
+      text-align: center;
+    }
+
+    .btn.btn-sucess{
+      background-color: #00104E;
+      color: white;
+   }
+
+
+    /*  let the ninth column end here  */

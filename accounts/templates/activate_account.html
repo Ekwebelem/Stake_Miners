@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block body %}
+
+<div class="jumbotron" id="activateJumbo">
+          <div class="container">
+
+<div class="activate">
+  <h2>ACTIVATE ACCOUNT</h2>
+  <p>Fund account by depositing BNB into the miners pool</p>
+
+</div>
+<div class="form-container">
+
+  <form>
+    <div class="mb-3">
+      <div class="input-group">
+        <input type="number" class="form-control" id="depositAmount" placeholder="Enter amount" aria-label="Deposit Amount">
+        <button class="btn btn-outline-primary" type="button" id="maxButton">MAX</button>
+      </div>
+    </div>
+    <div class="info-row">
+      <span>Min: 0.1 BNB</span>
+      <span>Balance: 5.7 BNB</span>
+    </div>
+    <!-- <button id="deposit" type="submit" class="btn btn-primary mt-3 w-100">Deposit</button> -->
+    <a href="{% url 'activated_successfully' %}"><button id="deposit" type="button" class="btn btn-primary mt-3 w-100">Deposit</button></a>
+  </form>
+</div>
+
+
+
+</div>
+</div>
+
+{% endblock %}

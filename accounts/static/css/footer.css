@@ -1,0 +1,85 @@
+.testfooter{
+  background-color: white;
+  color: #131B28;
+}
+
+.footerlast{
+  background-color: #00104E;
+  color: Aqua;
+}
+
+
+underlinedfoot{
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+
+
+.footerhover:hover {
+  color: #00DD09;
+}
+
+#footerlasthover:hover {
+  color: white;
+}
+
+#footerbody{
+  background-color: white;
+padding-top: 10px;
+padding-bottom: 30px;
+
+}
+
+#footerbody h6{
+  color: #131B28;
+}
+.footerpara{
+    text-align: justify;
+}
+/* #0F6DFD; */
+
+.logobee {
+    width: 70px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 10px;
+}
+
+h6 a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+h6 a span {
+    margin-left: 10px; /* Add spacing between image and text */
+}
+
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px; /* Adjust spacing between icons */
+}
+
+.social-icons img {
+    width: 40px; /* Adjust icon size as needed */
+    height: 40px;
+    transition: transform 0.3s ease; /* Smooth transition for transform property */
+}
+
+.social-icons img:hover {
+    transform: scale(1.2); /* Increase size on hover */
+  color: #00DD09;
+}

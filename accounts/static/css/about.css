@@ -1,0 +1,64 @@
+
+/*  let the first column start here  */
+
+#aboutfirstjumbo{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.aboutfirsttext{
+  padding-top: 70px;
+  padding-bottom: 0px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: justify;
+}
+
+.aboutfirsttext p{
+  font-size: 14px;
+  align-items: flex-start;
+
+}
+
+.aboutfirsttext h2{
+  color: #0A2152;
+  font-size: 52px;
+  align-items: flex-start;
+}
+.aboutStake {
+  color: #05972E;
+}
+
+.aboutfirstfill img {
+  padding-right: 20px;
+  padding-left: 40px;
+  width: 80%;
+  height: 80%;
+  text-align: center;
+}
+
+/*  let the first column end here  */
+
+.social-icons-about {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.social-icons-about a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 20px; /* Adjust spacing between icons */
+}
+
+.social-icons-about img {
+    width: 100%; /* Adjust icon size as needed */
+    height: 30px;
+    transition: transform 0.3s ease; /* Smooth transition for transform property */
+}
+
+.social-icons-about img:hover {
+    transform: scale(1.2); /* Increase size on hover */
+  color: #00DD09;
+}

@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block body %}
+
+<!-- the first block starts here  -->
+
+<div class="jumbotron" id="aboutfirstjumbo" >
+          <div class="container">
+                 <div class="row">
+                          <div class="col-md-6">
+                                <div class="aboutfirsttext">
+                                    <h2>CONTACT <span class="aboutStake">US</span></h2>
+                                    <p>If you have any questions, need assistance, or want to learn more about our services, please don't hesitate to reach out. Our dedicated support team is available 24/7 to help you with any inquiries. You can contact us via email, phone, or live chat. We look forward to assisting you and ensuring your mining experience is smooth and successful
+                                    </p>
+                                    <br>
+                                </div>
+                                <!-- Links -->
+                                <div class="social-icons-about ">
+                                    <a href="https://gmail.com" target="_blank"><img src="{% static 'images/message.png' %}" alt="Email"></a>
+                                    <a href="https://twitter.com" target="_blank"><img src="{% static 'images/tweet.png' %}" alt="Twitter"></a>
+                                    <a href="https://twitter.com" target="_blank"><img src="{% static 'images/bi_telegram.png' %}" alt="Twitter"></a>
+                                    <a href="https://facebook.com" target="_blank"><img src="{% static 'images/facebook.png' %}" alt="Facebook"></a>
+
+                                </div>
+                           </div>
+
+                          <div class="col-md-6">
+                              <div class="contactfirstfill">
+                                  <img src=" {% static 'images/Contact1.png' %} "  alt="no image found">
+                              </div>
+                          </div>
+                  </div>
+        </div>
+</div>
+
+<!-- the first block ends here  -->
+
+{% endblock %}

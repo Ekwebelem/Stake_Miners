@@ -1,0 +1,13 @@
+#depositSuccessful {
+  max-width: 500px;
+  background-color: #16233F;
+  border-color: #16233F;
+}
+.activated_successfully img{
+  height: 150px;
+}
+
+.activated_successfully {
+  align-items: center;
+  text-align: center;
+}

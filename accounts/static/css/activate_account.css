@@ -1,0 +1,44 @@
+.form-container {
+     max-width: 700px;
+     margin: 50px auto;
+     padding: 60px;
+     background-color: #f8f9fa;
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     align-items: center;
+   }
+   .form-container h2 {
+     text-align: center;
+     margin-bottom: 20px;
+   }
+   .input-group .form-control {
+     border-right: 0;
+   }
+   .input-group .btn {
+     border-left: 0;
+     background-color: #16233F;
+   }
+   .info-row {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 10px;
+     color: #333;
+   }
+.activate {
+  align-items: center;
+  text-align: center;
+}
+
+#activateJumbo {
+  padding: 60px;
+}
+
+#deposit {
+  background-color: #16233F;
+  border-color: #16233F;
+}
+
+#deposit :hover {
+  background-color: #16233F;
+color: white;
+}

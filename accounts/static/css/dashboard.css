@@ -1,0 +1,114 @@
+.half-circle-header {
+     position: relative;
+     background-color: #16233F;
+     width: 100%;
+     height: 200px;
+     border-bottom-left-radius: 100% 500px;
+     border-bottom-right-radius: 100% 500px;
+     text-align: center;
+     color: white;
+   }
+   .profile-container {
+     position: absolute;
+     left: 50%;
+     bottom: -50px;
+     transform: translateX(-50%);
+     text-align: center;
+   }
+   .profile-container img {
+     border-radius: 50%;
+     width: 100px;
+     height: 100px;
+     border: 3px solid white;
+   }
+   .header-text {
+     position: relative;
+     top: 50px;
+     text-align: center;
+   }
+   .title {
+     font-size: 24px;
+     font-weight: bold;
+     margin-bottom: 5px;
+     color: #00DD09;
+   }
+   .description {
+     font-size: 16px;
+   }
+   .content {
+     margin-top: 70px;
+     padding: 10px;
+     text-align: center;
+   }
+
+   .dashboardform-container {
+        max-width: 900px;
+        margin: 50px auto;
+        padding: 40px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        align-items: center;
+        text-align: center;
+        background: linear-gradient(to bottom, #16233F, #052873)
+      }
+      .dashboardform-container h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: white;
+      }
+      .dashboardform-container p {
+        text-align: center;
+        font-size: 12px;
+        color: white;
+      }
+      .dashboardform-container h6 {
+        text-align: center;
+        color: #00DD09;
+      }
+
+    #dashboardButton{
+      background-color: #09B710;
+      border-color: #09B710;
+      color: white;
+      align-items: center;
+      text-align: center;
+      border-radius: 30px;
+      width: 180px;
+      height: 60px;
+    }
+.dashboardButton {
+  align-items: center;
+  text-align: center;
+}
+
+.transaction-history {
+      margin: 20px;
+    }
+    .transaction-header {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .transactionform-container {
+      max-width: 1350px;
+         margin: 50px auto;
+         padding: 40px;
+         background-color: #f8f9fa;
+         border-radius: 10px;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+       }
+
+       .divider {
+       border-top: 2px solid #000;
+       margin-bottom: 20px;
+
+     }
+
+.dashboardmodal-content .modal-content {
+     background-color: white !important; /* White background */
+     color: black !important; /* Black text color */
+     border-radius: 10px; /* Rounded corners */
+   }

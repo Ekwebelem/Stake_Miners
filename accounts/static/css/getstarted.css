@@ -1,0 +1,80 @@
+/* Custom Modal Styles */
+    .modal-content {
+      background-color: #21252b !important; /* Change background color */
+      color: white !important;
+      border-radius: 10px; /* Rounded corners */
+    }
+.btn-close{
+  background-color: white !important;
+    color: red ;
+}
+
+    .modal-header, .modal-footer {
+      border: none !important; /* Remove header and footer lines */
+    }
+
+    .btn-primary {
+      background-color: #00DD09; /* Custom button color */
+      border-color: #00DD09; /* Custom button border color */
+    }
+
+    .btn-primary:hover {
+      background-color: #00bb08; /* Darker shade on hover */
+      border-color: #00bb08; /* Darker shade on hover */
+    }
+
+    /* Center the modal vertically */
+    .modal-dialog-centered {
+      display: flex;
+      align-items: center;
+      min-height: calc(100% - 1rem);
+    }
+
+    .modal-content {
+      margin: auto;
+    }
+
+    /* Full height border line */
+    .full-height-border {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 1px;
+      background-color: #dee2e6;
+    }
+
+.list-unstyled img {
+     margin-right: 140px;
+     width: 30px; /* Adjust the width as needed */
+     height: 30px; /* Adjust the height as needed */
+   }
+   .list-unstyled  {
+align-items: center;
+ text-align: center;
+  }
+
+
+
+   #walletcolumn8 p{
+     font-size: 12px;
+     text-align: left;
+   }
+
+   #walletcolumn8 h6{
+     text-align: center;
+   }
+
+
+
+li a {
+  color: white; /* Set the text color to white */
+  text-decoration: none !important; /* Remove the underline */
+}
+
+li a:hover {
+  color: #00DD09; /* Change the text color to green on hover */
+}
+
+.learn :hover {
+  color: #00DD09; /* Change the text color to green on hover */
+}

@@ -1,0 +1,172 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block body %}
+
+<div class="half-circle-header">
+  <div class="header-text">
+    <div class="title">Welcome!</div>
+    <div class="description">Compound Daily and Earn Rewards </div>
+  </div>
+  <div class="profile-container">
+    <img src="{% static 'images/profile.png' %}" alt="Profile Picture">
+  </div>
+</div>
+
+<div class="content">
+  <h5>Account Wallet : 0x6aG482377e982197152829346e66cd63a0B7AB31</h5>
+</div>
+
+<div class="dashboardform-container">
+  <div class="row">
+
+    <div class="col-md-3">
+      <h2>3.7 BNB</h2>
+      <h6>Initial Deposit</h6>
+      <p>(Account activation amount)</p>
+      </div>
+
+      <div class="col-md-3">
+        <h2>4.0 BNB</h2>
+        <h6>Compound Balance</h6>
+        <p>(Daily compound interest 0.7%)</p>
+        </div>
+
+        <div class="col-md-3">
+          <h2>2 DAYS</h2>
+          <h6>Streaks</h6>
+          <p>(Daily compound Streak)</p>
+          </div>
+
+          <div class="col-md-3">
+            <h2>3X</h2>
+            <h6>Boost</h6>
+            <p>(Boost account paid)</p>
+            </div>
+
+  </div>
+
+</div>
+
+<!-- Compound Button -->
+<div class="dashboardButton">
+  <button id="dashboardButton" type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#compoundModal">COMPOUND</button>
+</div>
+
+<!-- Compound Modal -->
+<div class="modal fade" id="compoundModal" tabindex="-1" aria-labelledby="compoundModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="dashboardmodal-content modal-content" >
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="window.location.href='{% url 'dashboard_success' %}'"></button>
+      </div>
+      <div class="modal-body">
+        <div class="activated_successfully">
+          <img src="{% static 'images/solid.png' %}" alt="Icon" class="me-2">
+          <h2>Compound Successful</h2>
+          <p>Todays compound claim is successful, see you tomorrow.</p>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- /////// -->
+
+
+<div class="transactionform-container">
+
+<div class="container transaction-history">
+  <div class="transaction-header">Transaction History</div>
+   <hr class="divider">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Action</th>
+        <th scope="col">Amount</th>
+        <th scope="col">Date</th>
+        <th scope="col">Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Deposit</td>
+        <td>3.7 BNB</td>
+        <td>27-06</td>
+        <td>16:00</td>
+      </tr>
+      <!-- Add more rows as needed -->
+      <tr>
+        <td>Withdrawal</td>
+        <td>6.5 BNB</td>
+        <td>07-08</td>
+        <td>10:00</td>
+      </tr>
+
+      <tr>
+        <td>Deposit</td>
+        <td>3.7 BNB</td>
+        <td>27-06</td>
+        <td>16:00</td>
+      </tr>
+
+      <tr>
+        <td>Deposit</td>
+        <td>3.7 BNB</td>
+        <td>27-06</td>
+        <td>16:00</td>
+      </tr>
+
+      <tr>
+        <td>Deposit</td>
+        <td>3.7 BNB</td>
+        <td>27-06</td>
+        <td>16:00</td>
+      </tr>
+
+      <tr>
+        <td>Deposit</td>
+        <td>3.7 BNB</td>
+        <td>27-06</td>
+        <td>16:00</td>
+      </tr>
+
+      <tr>
+        <td>Deposit</td>
+        <td>3.7 BNB</td>
+        <td>27-06</td>
+        <td>16:00</td>
+      </tr>
+
+      <tr>
+        <td>Deposit</td>
+        <td>3.7 BNB</td>
+        <td>27-06</td>
+        <td>16:00</td>
+      </tr>
+
+      <tr>
+        <td>Deposit</td>
+        <td>3.7 BNB</td>
+        <td>27-06</td>
+        <td>16:00</td>
+      </tr>
+
+      <tr>
+        <td>Deposit</td>
+        <td>3.7 BNB</td>
+        <td>27-06</td>
+        <td>16:00</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block body %}
+
+<!-- the first block starts here  -->
+
+<div class="jumbotron" id="aboutfirstjumbo" >
+          <div class="container">
+                 <div class="row">
+                          <div class="col-md-6">
+                                <div class="aboutfirsttext">
+                                    <h2>ABOUT <span class="aboutStake">STAKER MINER</span></h2>
+                                    <p>Welcome to Staker Miner! We offer a seamless and efficient cryptocurrency mining experience with state-of-the-art technology and optimized algorithms. Our user-friendly platform ensures maximum profitability and minimal costs for miners at all levels. Security is our priority, with advanced encryption and multi-factor authentication to protect your data and earnings. Join our community today and experience the future of crypto mining with 24/7 dedicated support
+                                    </p>
+                                    <br>
+                                </div>
+                                <!-- Links -->
+                                <div class="social-icons-about ">
+                                    <a href="https://gmail.com" target="_blank"><img src="{% static 'images/message.png' %}" alt="Email"></a>
+                                    <a href="https://twitter.com" target="_blank"><img src="{% static 'images/tweet.png' %}" alt="Twitter"></a>
+
+                                </div>
+                           </div>
+
+                          <div class="col-md-6">
+                              <div class="aboutfirstfill">
+                                  <img src=" {% static 'images/Contact.png' %} "  alt="no image found">
+                              </div>
+                          </div>
+                  </div>
+        </div>
+</div>
+
+<!-- the first block ends here  -->
+
+{% endblock %}
